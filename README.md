@@ -1,6 +1,3 @@
-# lab-tweets
-
-'''
 # Lab: Analyzing Trump Tweets
 
 In this lab, you will analyze all tweets sent by president Trump from 2009-2018.
