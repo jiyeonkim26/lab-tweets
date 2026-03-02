@@ -71,10 +71,6 @@ data = [
         }
 ]
 markdown = markdown_table(data).get_markdown()
-markdown = markdown_table(data).set_params(padding_width = 3, 
-                                                 padding_weight = 'centerleft', 
-                                                 multiline = {'joke1': 30, 'joke2': 30, 'joke3': 30}
-                                                 ).get_markdown()
 print(markdown)
 
 import matplotlib
@@ -83,7 +79,6 @@ import numpy as np
 
 x = np.array(["trump", "obama", "mexico", "russia", "fake news"])
 y = np.array([38.35, 07.47, 00.55, 01.13, 00.92])
-
 
 plt.bar(x,y)
 plt.xlabel("Tweets by Trump")
