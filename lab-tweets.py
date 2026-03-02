@@ -4,7 +4,7 @@ import json
 import zipfile
 import glob
 
-files = glob.glob("trump_tweet_data_archive-condensed/condensed_*.json")
+files = glob.glob("condensed_trump_tweet_data_archive/condensed_*.json")
 print(files)
 
 all_tweets = []
