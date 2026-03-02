@@ -1,3 +1,3 @@
 # lab-tweets
 
-/Users/jiyeonkim/lab-tweets-figure.png
+![tweets data](lab-tweets-figure.png)
