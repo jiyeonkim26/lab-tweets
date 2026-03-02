@@ -84,5 +84,9 @@ import numpy as np
 x = np.array(["trump", "obama", "mexico", "russia", "fake news"])
 y = np.array([38.35, 07.47, 00.55, 01.13, 00.92])
 
+
 plt.bar(x,y)
+plt.xlabel("Tweets by Trump")
+plt.ylabel("Percent of Tweets")
+plt.title("What is Trump Tweeting?")
 plt.show()
