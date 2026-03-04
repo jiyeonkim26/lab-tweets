@@ -1,6 +1,6 @@
 # lab-tweets
 
-| phrase            | percent of tweets |
+|:phrase            | percent of tweets |
 | -----------------:|:----------------- |
 |             china | 00.20             |
 |         fake news | 00.18             |
