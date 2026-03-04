@@ -14,4 +14,4 @@
 |            russia | 00.15             |
 |             trump | 03.61             |
 
-The above table and bar graph reveals the frequency at which Trump tweeted certain keywords, using the most up-to-date version of tweet data last updated on 01/08/2020. 
+The above table and bar graph reveals the frequency at which Trump tweeted certain keywords, using the most up-to-date version of tweet data last updated on 01/08/2020. For a summary of the same keywords in Trump's tweets from 2009-2018, see lab-tweets.py. 
