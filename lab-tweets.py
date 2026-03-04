@@ -22,15 +22,12 @@ keywords = [
     "obama",
     "mexico",
     "russia",
-    "fake news"
-]
-counts = {i:0 for i in keywords}
-
-additional_words = [
+    "fake news",
     "china",
     "hillary",
     "media"
 ]
+counts = {i:0 for i in keywords}
 
 for tweet in all_tweets:
     text = tweet.lower()
