@@ -32,16 +32,15 @@ print('total tweets:', total_tweets)
 for tweet in all_tweets:
     text = tweet.lower()
     for keyword in keywords:
-        if keyword in keywords:
-            if keyword in text:
-                counts[keyword] += 1
+        if keyword in text:
+            counts[keyword] += 1
 
 print(counts)
 
 # for markdown table
-format_specifier = '05.2f'
-percent_tweets = {key: f"{((value / total_tweets)*100):{format_specifier}}" for (key, value) in counts.items()}
-print("percent tweets =", percent_tweets)
+percent_tweets = {key: (value / total_tweets) * 100 for (key, value) in counts.items()}
+for keyword in sorted(keywords):
+    print(f"| {keyword:>17} | {percent_tweets[keyword]:05.2f} |")
 
 key_list = list(percent_tweets.keys())
 percent_list = list(percent_tweets.values())
